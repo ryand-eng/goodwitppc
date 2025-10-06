@@ -1,0 +1,25 @@
+.success__actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.success__link {
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: #7ce3ff;
+  color: #0b1320;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.success__link.secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: #f5f7fb;
+}
+
+@media (max-width: 768px) {
+  .success__actions {
+    flex-direction: column;
+  }
+}
